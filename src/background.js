@@ -10,7 +10,7 @@ function createANewTabIfNoneExist() {
                 chrome.tabs.create(createProperties, function(){});
             }
         })
-    }, 3000);
+    }, 1000 + Math.floor(Math.random() * 5000));
 }
 
 
