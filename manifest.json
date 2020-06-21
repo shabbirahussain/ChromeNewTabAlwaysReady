@@ -1,0 +1,19 @@
+{
+  "name": "Speedy new tab creation",
+  "version": "1.0",
+  "description": "Always keeps a new tab ready!",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["src/background.js"],
+    "persistent": false
+  },
+  "permissions" : ["tabs"],
+  "page_action": {
+    "default_icon": {
+      "16": "img/Icon16.png",
+      "32": "img/Icon32.png",
+      "64": "img/Icon64.png",
+      "128": "img/Icon128.png"
+    }
+  }
+}
